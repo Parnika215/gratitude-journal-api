@@ -19,6 +19,12 @@ public class GratitudeController {
         this.promptService = promptService;
     }
 
+    // ROOT ENDPOINT (for base URL)
+    @GetMapping("/")
+    public String home() {
+        return "Welcome to Gratitude Journal API! Use /api/gratitude to access the endpoints.";
+    }
+
     // CREATE
     @PostMapping
     public GratitudeEntry addEntry(@RequestBody GratitudeEntry entry) {
