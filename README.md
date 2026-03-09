@@ -189,13 +189,13 @@ Body
 
 ## GET Request
 
-![GET Request](GET Image)
+![GET Request](get-image.jpeg)
 
 ---
 
 ## POST Request
 
-![POST Request](POST Image)
+![POST Request](post-image.jpeg)
 
 ---
 
